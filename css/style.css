@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-size: 100%;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding-bottom: 15px;
+}
+ 
+.topnav ul .listmenu {
+    float: left;
+    color: #625e5e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+}
+ 
+.topnav .listmenu > a{
+    color: rgb(173, 172, 169);
+    text-decoration: none;
+}
+
+.topnav > a:hover {
+    color: white;
+}
+
+.right div{
+   float: right;
+   text-align: center;
+   padding-top: 14px;
+}
+.carticon{
+    background-color: rgb(9, 202, 9);
+    width: 60px; height: 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.find{
+    margin-right: 15px;
+}
+nav {
+    padding-left: 80px;
+	width: 350px;
+}
+.menuitem {
+    height: 40px;
+	list-style-type: none;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.menuitem a {
+	color: #163ff5;
+	text-decoration: none;
+   
+}
+.menulist li:hover {
+	background-color: rgb(22, 102, 206);
+    color: white;
+}
+.category{
+    padding-left: 120px;
+}
+.menulist li:hover a{
+    color: white;
+}
+nav ul li a{
+    text-align: right;
+}
+.name{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.product{
+    float: left;
+}
+.single{
+    float: left;
+    margin-left: 15px;
+}
+.price{
+    color:red;
+}
+.tag{
+    font-size: 12px;
+}
+.btnbuy{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.btnbuy a{
+    color: white;
+    padding-left: 20px;
+}
+.btnbuy .row .col-md-2 div{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 81, 255, 0.89);
+}
+.fa-shopping-cart{
+    color: white;
+}
+.right .btn_cart button{
+    background-color: green;
+    margin-right: 10px ;
+}
+.right div form button{
+    margin-left: -10px;
+}
+
+.carousel-item.item1 {
+    background: url(../img/slide0.png);
+    background-size: 100% 100%;
+    
+}
+
+.carousel-item.item2 {
+    background: url(../img/slide1.png);
+    background-size: 100% 100%;
+    
+}
+
+.carousel-item.item3 {
+    background: url(../img/slide2.png);
+    background-size: 100% 100%;
+    
+   
+}
+
+.carousel-item.item4 {
+    background: url(../img/slide3.png);
+    background-size: 100% 100%;
+    
+   
+}
+
+.carousel-item.item4,
+.carousel-item.item3,
+.carousel-item.item2,
+.carousel-item.item1 {
+    min-height: 500px;
+    max-width: 2500px;
+}
+.carousel-indicators li {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(213, 207, 228);  
+}
+
+.carousel-indicators li:hover{
+    width: 30px;
+    height: 3px;
+    background-color: white;  
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+}
+.topnav ul{
+    margin-left: -30px;
+}
+.topnav ul li a img{
+    margin-top: -8px;
+}
+.menu a{
+    display: block;
+}
+.menu{
+    background-color:white;
+    position: absolute;
+    width: 180px;
+    z-index: 2;
+    display: none;
+}
+.dropdown_product:hover li .menu{
+    display: block;
+}
+.menu a{
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.form{
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.menu_acc{
+    background-color:white;
+    position: absolute;
+    width: 260px;
+    z-index: 2;
+    display: none;
+}
+.dropdown_account:hover li .menu_acc{
+    display: block;
+}
